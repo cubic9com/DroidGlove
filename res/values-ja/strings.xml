@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">DroidGlove</string>
+
+	<string name="toast_error_ip_null">IPアドレスの設定がまだされていません。設定をお願いします。</string>
+	<string name="toast_error_ip_wrong">IPアドレスが誤っています。確認してください。</string>
+	<string name="toast_error_vibration_time_wrong">振動時間が誤っています。確認してください。</string>
+	
+	<string name="dialog_error_title">エラーが発生しました</string>
+	<string name="dialog_error_detail">詳細</string>
+	<string name="dialog_error_ok">OK</string>
+
+	<string name="dialog_error_wifi_off">Wi-Fiがオフになっています。オンにしてください。</string>
+	<string name="dialog_error_get_ip">スマホのIPアドレスを取得できませんでした。</string>
+	<string name="dialog_error_sender">送信側エラー。PCのIPアドレスを確認してください。</string>
+	<string name="dialog_error_receiver">受信側エラー。振動用サーバを起動できませんでした。</string>
+	<string name="dialog_error_no_sensor">センサーを取得できませんでした。対応機種でない可能性があります。</string>
+	
+	<string name="menu_settings">設定</string>
+
+	<string name="pref_cat_network">接続設定</string>
+
+	<string name="pref_ip_title">PCのIPアドレス</string>
+	<string name="pref_ip_summary">PCのIPアドレス(n.n.n.n)</string>
+	<string name="pref_ip_dialog_title">PCのIPアドレス</string>
+
+	<string name="pref_vibration_title">振動時間</string>
+	<string name="pref_vibration_summary">指定がなかった場合の振動の長さ[ミリ秒]</string>
+	<string name="pref_vibration_dialog_title">振動時間</string>
+	
+	<string name="message_push_reset">スマホの天辺をPCのモニターに向け、Resetボタンを押してください。</string>
+	<string name="message_swipe_down">下向きにスワイプすると手を握ります。</string>
+	
+</resources>

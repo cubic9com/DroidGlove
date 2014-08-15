@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <EditTextPreference
+            android:dialogTitle="@string/pref_ip_dialog_title"
+            android:inputType="text"
+            android:key="ip"
+            android:summary="@string/pref_ip_summary"
+            android:title="@string/pref_ip_title" />
+        <EditTextPreference
+            android:dialogTitle="@string/pref_vibration_dialog_title"
+            android:inputType="number"
+            android:key="vibration_time"
+            android:summary="@string/pref_vibration_summary"
+            android:title="@string/pref_vibration_title" />
+        
+</PreferenceScreen>
