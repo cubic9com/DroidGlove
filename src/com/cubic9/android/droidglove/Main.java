@@ -44,6 +44,27 @@ import com.illposed.osc.OSCPort;
 import com.illposed.osc.OSCPortIn;
 import com.illposed.osc.OSCPortOut;
 
+/**
+ * Main class of DroidGlove.
+ *
+ * DroidGlove is an Android app for controlling the motion of hand
+ * in virtual reality world which is provided by the software such as Unity.
+ * 
+ * The latest version of the sources are available at following URL.
+ * <https://github.com/cubic9com/DroidGlove/>
+ * 
+ * DroidGlove requires JavaOSC which was developed
+ * by C. Ramakrishnan, Illposed Software.
+ * 
+ * Get JavaOSC at following URL.
+ * <https://github.com/hoijui/JavaOSC/tree/e2a1667cb198675958012d91a374f9e9705195be>
+ * 
+ * Copyright (C) 2014, cubic9com All rights reserved.
+ * This code is licensed under the BSD 3-Clause license.
+ * See file LICENSE for more information.
+ * 
+ * @author cubic9com
+ */
 public class Main extends Activity implements SensorEventListener {
 	/** numbers for average because of flicker */
 	private static final int AVERAGE_AMOUNT = 15;
