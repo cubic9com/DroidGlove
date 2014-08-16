@@ -4,6 +4,9 @@ DroidGlove is an Android app for controlling the motion of hand
 in virtual reality world which is provided by the software such as Unity.  
 That is like the legendary NES controller.
 
+See detail and a video at <http://cubic9.com/Devel/OculusRift/DroidGlove_en/>.  
+(in Japanese, see detail at <http://cubic9.com/Devel/OculusRift/DroidGlove/>)
+
 The latest version of the sources of DroidGlove is available at
 <https://github.com/cubic9com/DroidGlove/>.  
 And the binary is available at [Google Play](https://play.google.com/store/apps/details?id=com.cubic9.android.droidglove).
